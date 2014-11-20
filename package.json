@@ -1,0 +1,31 @@
+{
+  "name": "sirquery",
+  "version": "1.0.0",
+  "description": "A jQuery Get/Replace API for the Sir Trevor JS editor.",
+  "main": "index.js",
+  "scripts": {
+    "build": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhubbard/SirQuery.git"
+  },
+  "author": "Nicholas Hubbard <hubbardn95@gmail.com> (https://nicholashubbard.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhubbard/SirQuery/issues"
+  },
+  "homepage": "https://github.com/nhubbard/SirQuery",
+  "dependencies": {
+    "browserify": "^6.3.2",
+    "jquery-browserify": "^1.8.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.2.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-verb": "^0.2.4",
+    "verb": "*"
+  }
+}
