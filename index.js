@@ -1,7 +1,7 @@
 var $ = require('jquery-browserify');
 (function ($) {
-	$.fn.stGetJSON = function() {
-		return SirTrevor.getInstance(0).store("read");
+	$.fn.stGetJSON = function(instance) {
+		return SirTrevor.getInstance(instance).store("read");
 	}
 	$.fn.stReplaceJSON = function(json) {
 		// this.text(json);
